@@ -7,8 +7,8 @@ matplotlib==3.4.2
 mercurial==5.8
 microannotate==0.0.24
 mozci==2.0.2
-numpy==1.20.3
-orjson==3.5.3
+numpy==1.22.2
+orjson==3.9.15
 ortools==9.0.9048
 pandas==1.2.4
 psutil==5.8.0
@@ -17,14 +17,18 @@ pyOpenSSL>=0.14  # Could not find a version that satisfies the requirement pyOpe
 python-dateutil==2.8.1
 python-hglib==2.6.2
 ratelimit==2.2.1
-requests==2.25.1
+requests==2.32.2
 rs_parsepatch==0.3.3
-scikit-learn==0.24.2
-scipy==1.6.3
+scikit-learn==1.5.0
+scipy==1.10.0rc1
 shap[plots]==0.39.0
 tabulate==0.8.9
 taskcluster==44.0.0
 tenacity==7.0.0
-tqdm==4.61.0
+tqdm==4.66.3
 xgboost==1.4.2
 zstandard==0.15.2
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+redis>=4.3.6 # not directly required, pinned by Snyk to avoid a vulnerability
